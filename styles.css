@@ -1,0 +1,249 @@
+/* Genel Stiller */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #404040;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: url('seka.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+/* Hero Section1 */
+.hero-section1 {
+  height: 50vh;
+  background: url('karamürsel.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+/* Hero Section2 */
+.hero-section2 {
+  height: 50vh;
+  background: url('cambalkon.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+/* Hero Section3 */
+.hero-section3 {
+  height: 50vh;
+  background: url('saatkulesi.jpg') no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2A60B4;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2A60B4;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* hakkında */
+.about-section {
+  padding: 200px 20px;
+  background-color: #fff;
+}
+
+.about-section .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about-section .profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* Projeler */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+.project-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition: transform 0.3s ease; 
+}
+
+.project-card:hover img {
+  transform: scale(1.05); 
+}
+
+
+.projects-section {
+  background-color: #f4f4f4;
+  padding: 50px 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 280px; 
+  cursor: pointer;
+  margin-bottom: 20px; 
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1200px) {
+  .project-card {
+    width: 45%; 
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%; 
+  }
+}
+
+/* İletişim */
+.contact-section {
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #2A60B4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
