@@ -247,3 +247,46 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+
+
+@media (max-width: 768px) {
+  
+  
+  .navbar ul {
+    flex-direction: column; 
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    margin: 10px 0; 
+  }
+
+  
+  .hero-content h1 {
+    font-size: 2rem; 
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  
+  .about-section {
+    padding: 50px 20px; 
+  }
+
+  .about-section .content {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  .about-section .profile-img {
+    margin-bottom: 20px; 
+  }
+
+  
+  .project-card {
+    width: 100% !important; 
+  }
+}
