@@ -19,7 +19,7 @@ h1, h2 {
 /* Hero Section */
 .hero-section {
   height: 90vh;
-  background: url('seka.jpg') no-repeat center center/cover;
+  background: url('images/seka.jpg') no-repeat center center/cover;
   position: relative;
   color: white;
 }
@@ -27,7 +27,7 @@ h1, h2 {
 /* Hero Section1 */
 .hero-section1 {
   height: 50vh;
-  background: url('karamürsel.jpg') no-repeat center center/cover;
+  background: url('images/karamürsel.jpg') no-repeat center center/cover;
   position: relative;
   color: white;
 }
@@ -35,7 +35,7 @@ h1, h2 {
 /* Hero Section2 */
 .hero-section2 {
   height: 50vh;
-  background: url('cambalkon.jpg') no-repeat center center/cover;
+  background: url('images/cambalkon.jpg') no-repeat center center/cover;
   position: relative;
   color: white;
 }
@@ -43,7 +43,7 @@ h1, h2 {
 /* Hero Section3 */
 .hero-section3 {
   height: 50vh;
-  background: url('saatkulesi.jpg') no-repeat center center/cover;
+  background: url('images/saatkulesi.jpg') no-repeat center center/cover;
   position: relative;
   color: white;
 }
