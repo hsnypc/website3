@@ -295,11 +295,15 @@ footer {
 @media (max-width: 768px) {
 
   
+  /* Video Ayarı - %95 Versiyon */
   .about-section video {
-    width: 100% !important; 
+    width: 95% !important; /* Genişliği %95 yaptık */
     height: auto !important; 
-    border-radius: 10px; 
-    margin: 20px 0; 
+    max-height: 50vh; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
   }
 
   
