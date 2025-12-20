@@ -290,3 +290,41 @@ footer {
     width: 100% !important; 
   }
 }
+
+
+@media (max-width: 768px) {
+
+  
+  .about-section video {
+    width: 100% !important; 
+    height: auto !important; 
+    border-radius: 10px; 
+    margin: 20px 0; 
+  }
+
+  
+  .hero-section1 {
+    height: 30vh; 
+  }
+
+  
+  .navbar ul {
+    align-items: center; 
+    text-align: center;
+  }
+
+  
+  .about-section p {
+    font-size: 1rem; 
+    line-height: 1.6; 
+    text-align: justify; 
+    padding: 0 10px; 
+  }
+
+  
+  .about-section .profile-img {
+    margin: 20px auto; 
+    display: block; 
+    max-width: 80%; 
+  }
+}
